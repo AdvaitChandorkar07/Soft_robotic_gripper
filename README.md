@@ -13,7 +13,6 @@ This repository contains the code, designs, and resources for a **soft robotic g
 - [Code Overview](#code-overview)
 - [How It Works](#how-it-works)
 - [Setup Instructions](#setup-instructions)
-- [Resources](#resources)
 - [Working Demonstration](#working-demonstration)
 - [Credits](#credits)
 
@@ -102,7 +101,34 @@ The **Wearable Glove-Controlled Soft Robotic Gripper** is designed to mimic huma
   - Install the ESP32 board from the Board Manager.
 
 ### Steps:
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/your-username/soft-robotic-gripper.git
-   cd soft-robotic-gripper
+ *   Clone this repository:
+
+        ```bash
+        git clone https://github.com/AdvaitChandorkar07/Soft_robotic_gripper.git
+        cd soft-robotic-gripper
+        ```
+
+    *   Open the glove code in the Arduino IDE.
+    *   Replace the Wi-Fi credentials (SSID and password) in the glove code.
+    *   Flash the glove code onto the first ESP32.
+    *   Open the gripper code in the Arduino IDE.
+    *   Replace the Wi-Fi credentials in the gripper code and set the IP address of the glove ESP32.
+    *   Flash the gripper code onto the second ESP32.
+    *   Assemble the glove with flex sensors and the gripper with the pneumatic setup.
+
+**Working Demonstration:**
+
+To see the project in action, check out the following:
+
+*   **Presentation:** [Link to your Canva presentation](https://www.canva.com/design/DAFeYm2tBqI/btm3zuLHu0Qxaz4AQwvGiw/edit?utm_content=DAFeYm2tBqI&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton&st=u1kfheeb) 
+*   **Video Demonstration:** [./images/VIDEO-2023-04-27-15-38-37.mp4](./images/VIDEO-2023-04-27-15-38-37.mp4)
+*   **Sample Finger Image:** [./images/PHOTO-2023-04-27-14-50-55.jpg](./images/PHOTO-2023-04-27-14-50-55.jpg)
+
+**Credits:**
+
+Developed by: Advait Chandorkar
+
+*   Design and Modeling: SolidWorks and 3D printing.
+*   Material Fabrication: PDMS for soft robotic fingers.
+*   Wireless Communication: ESP32 modules.
+
